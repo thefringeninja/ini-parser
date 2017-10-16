@@ -1,12 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
     <RootNamespace>IniParser</RootNamespace>
     <AssemblyName>INIFileParser</AssemblyName>
     <PackageId>ini-parser</PackageId>
     <AssemblyTitle>INIParser</AssemblyTitle>
     <AssemblyDescription>A simple INI file processing library</AssemblyDescription>
     <AssemblyProduct>INIParser</AssemblyProduct>
+    <VersionPrefix>3.0.0</VersionPrefix>
+    <VersionSuffix>build</VersionSuffix>
   </PropertyGroup>
 </Project>
